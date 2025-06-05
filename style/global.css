@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --color-primary: #20b2aa;
+    --color-secondary: #9400d3;
+    --color-text: #fff;
+    --color-text-secondary: #000000;
+
+    
+}
+
+body{
+    font-family: "Inter", sans-serif;
+}
+
+h1{
+    font-weight: 800;
+}
+
+
