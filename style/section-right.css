@@ -1,0 +1,28 @@
+nav{
+    display: flex;
+    margin-top: 2rem;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem 3rem;
+
+    justify-content: flex-start;
+
+    p{
+        color: white;
+
+    }
+
+    button{
+        border: none;
+        background-color: transparent;
+        color: white;
+
+        padding: .8rem 1.3rem;
+        border: 2px solid white;
+        border-radius: 2rem;
+
+        cursor: pointer;
+       
+    }
+}
+

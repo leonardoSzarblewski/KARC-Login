@@ -1,20 +1,37 @@
 main {
     display: flex;
-}
-
-#container-left {
-    width: 50%;
-    display: flex;
+    padding: 1rem;
     justify-content: center;
 }
 
-#aside-left {
-    width: 40%;
+.logo {
+    margin-top: 2rem;
 }
 
-#aside-right {
+#container-left {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(237, 237, 237);
+
+    border-top-left-radius: 2rem;
+    border-bottom-left-radius: 2rem;
+
+
+}
+
+#aside-left {
+    margin-top: 4rem;
     width: 50%;
-    background-color: var(--color-primary)
+}
+
+#container-right {
+    width: 40%;
+    background-color: var(--color-primary);
+
+    border-bottom-right-radius: 2rem;
+    border-top-right-radius: 2rem;
+
 }
 
 .text-main {
@@ -88,6 +105,8 @@ main {
 }
 
 .text-footer {
+    margin-bottom: 5rem;
+
     .btn-footer {
         margin-top: 3rem;
 
@@ -104,11 +123,11 @@ main {
         cursor: pointer;
     }
 
-    p{
+    p {
         margin-top: 2rem;
         text-align: center;
 
-        span{
+        span {
             color: var(--color-primary);
         }
     }
