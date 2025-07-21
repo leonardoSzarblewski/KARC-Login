@@ -12,7 +12,7 @@ main {
     width: 40%;
     display: flex;
     justify-content: center;
-    background-color: rgb(237, 237, 237);
+    background-color: white;
 
     border-top-left-radius: 2rem;
     border-bottom-left-radius: 2rem;
@@ -62,6 +62,7 @@ main {
     #or {
         margin-top: 3rem;
         text-align: center;
+        color: black;
     }
 }
 
@@ -92,7 +93,7 @@ main {
 
     .text-password {
 
-        color: #20b2abc1;
+        color: var(--color-primary);
         cursor: pointer;
         font-weight: 600;
         margin-left: 60%;
@@ -123,6 +124,11 @@ main {
         cursor: pointer;
     }
 
+    .btn-footer:hover{
+        background-color: var(--color-primary);
+        transition: .5s;
+    }
+
     p {
         margin-top: 2rem;
         text-align: center;
@@ -130,5 +136,6 @@ main {
         span {
             color: var(--color-primary);
         }
+      color: black;
     }
 }
