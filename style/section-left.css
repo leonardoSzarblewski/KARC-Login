@@ -67,8 +67,9 @@ main {
 }
 
 #btn:hover {
-    border: 1px solid var(--color-primary);
-    color: var(--color-primary);
+    border: 1px solid rgb(25, 25, 25);;
+    color: rgb(25, 25, 25);;
+    
 
     transition: .5s;
 }
@@ -88,7 +89,12 @@ main {
         padding: 1rem;
         border-radius: .5rem;
         border: none;
-        border: 1px solid rgba(128, 128, 128, 0.422);
+        border: 1px solid #8080806c;
+        outline: none;
+    }
+    .input:focus{
+        border: 1px solid #808080;
+        transition: .2s;
     }
 
     .text-password {
